@@ -1,0 +1,347 @@
+/*	Sidebox Template for ________
+		Updated: 01/31/2011
+   	----------------------------------------------------*/
+
+/*	CONTENTS:
+		CSS Reset
+		Generic 
+		Header
+		Navigation
+		Content
+		Sidebar
+		Footer
+		Modules
+*/
+
+/* CSS Reset
+   ----------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, div, p, form, input, select, textarea, fieldset {
+	font: 12px/15px Arial,Helvetica,Verdana,sans-serif;
+	color: #333333;
+}
+
+a img {
+	border: 0 none;
+}
+
+/* Generic
+   ----------------------------------------------------*/
+body {
+	background: #DCE5E1;
+}
+
+#container {
+	background-color: #FFFFFF;
+	margin: 20px auto;	
+	padding: 10px;
+	text-align:left;
+	width: 900px;
+}
+
+.rightfloat {
+	float: right;
+	margin:0 10px 10px 10px;
+}
+.leftfloat {
+	float: left;
+	margin:0 10px 10px 10px;
+}
+.noFloat {
+	float: none;
+}
+.center {
+	margin:0 auto 10px;
+}
+
+code {
+    background-color: #E7E7E7;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+ 
+/* Header
+   ----------------------------------------------------*/
+
+#header {
+	background-color: #005C85;
+	border-bottom: 10px solid #FFFFFF;
+	height: 90px;
+}
+
+#header h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	margin: 0;
+	padding-left: 200px;
+	padding-top: 40px;
+}
+
+#header a#logo {
+	background-image: url("http://s3.amazonaws.com/os_extranet_images/75315_original.png");
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 52px;
+	margin-left:15px;
+	margin-top:20px;
+	overflow: hidden;
+	text-indent: -9999em;
+	width: 172px;
+}
+ 
+/* Navigation
+   ----------------------------------------------------*/
+#navigation {
+	background: #63A7C4;
+	float: left;
+	width: 190px;
+}
+
+#navigation h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background: #005C85;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+}
+
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	border-bottom: 1px dotted #005C85;
+	color: #FFFFFF;
+	width: 190px;
+}
+
+#navigation li a {
+	color: #FFFFFF;
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	width: 190px;
+}
+
+#navigation li a:hover {
+	color: #005C85;
+}
+ 
+#navigation li:hover {
+	background-color: #93C7D4;
+}
+ 
+/* Content
+   ----------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 15px 0 10px 0;
+	padding: 0;
+}
+
+#content {
+	float: right;
+	padding: 0 10px 20px 10px;
+	width: 680px;
+} 
+
+#content h1 {
+	font-family: "Times New Roman", Times, serif;
+	border-bottom: 1px dotted #CCCCCC;
+	color: #005C85;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#content h2 {
+	margin-bottom: 5px;
+	margin-top: 20px;
+
+}
+
+#content h3 {
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#content h4{
+	color: #333333;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#content h5 {
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+	
+#content h6 {
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#content p, #content ul, #content ol, #footer p {
+	font-size: 12px;
+	line-height: 150%;
+	padding: 10px 0;
+}
+
+#content a:link, a:visited {
+	color: #005C85;
+	text-decoration: none;
+}
+
+#content a:hover, a:active {
+	text-decoration: underline;
+}
+
+#content ul, ol, dl {
+	margin: 10px 30px;
+}
+
+#leftside {
+	float: left;
+	width: 450px;
+}
+
+
+/* Sidebar
+   ----------------------------------------------------*/
+
+#rightside {
+	float: right;
+	width: 200px;
+}
+
+#rightside h3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: normal;
+	border-bottom: 1px dotted #CCCCCC;
+	color: #005C85;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#rightside p + h3 {
+	margin-top: 30px;
+}
+
+#rightside p{
+	font-size: 11px;
+}
+
+#rightside ul {
+	font-size: 12px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+#rightside ul li {
+	list-style-type: none;
+	margin-bottom: 4px;
+}
+
+#rightside ul li a {
+	text-decoration: none;
+}
+
+/* Footer
+   ----------------------------------------------------*/
+#footer {
+	background-color: #ffffff;
+	border-top: 1px dotted #CCCCCC;
+	clear: both;
+	margin: 0;
+	padding: 20px 10px 20px 60px;
+	width: 830px;
+}
+
+#footer ul, #footer p, #footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #666;
+}
+
+#footer p {
+	margin: 0 0 2px 0;
+}
+
+#poweredby {
+	margin: 20px auto;
+	width: 900px;
+}
+
+#poweredby a {
+	background-image: url(http://s3.amazonaws.com/os_extranet_images/75314_original.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 36px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: -9999em;
+	width: 200px;
+}
+
+/* Modules
+   ----------------------------------------------------*/
+.mini_calendar thead {
+	background-color: #63A7C4;
+	color: #FFFFFF;
+}
+
+.mini_cal table caption {
+	background-color: #63A7C4;
+	border-bottom: 0 none;
+	color: #FFFFFF;
+}
+
+.mini_calendar thead th {
+	font-size: 10px;
+	font-weight: normal;
+	padding: 1px;
+	text-align: center;
+}
+
+
+	/* Modules: Calendar */
+	form#calendar_category {
+	    margin-left: 0;
+	    padding: 0;
+	    position: relative;
+	    top: 20px;
+	    width: 100%;
+	}
+
+	a.button.right {
+	    position: relative;
+	    top: -60px;
+	}
+
+	
+	#module_calendar h4 {
+		margin: 5px;
+	}
