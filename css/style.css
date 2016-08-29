@@ -1,7 +1,7 @@
 /*
  * GW Student Association Stylesheet 
  * Brandon Bernier
- * Updated: 2016-07-24
+ * Updated: 2016-08-28
  */
  
  /* Color Palette
@@ -134,6 +134,10 @@ a:hover {
 	color: #252122	
 }
 
+.anchor:target {
+	padding-top: 60px;
+}
+
 
 /******************** Navbar ********************/
 .navbar {
@@ -260,7 +264,10 @@ footer .navbar-bottom li a:hover {
 	border-color: #004065;
 }
 
-.people .panel-body, 
+.people .panel-body {
+	padding: 0;
+} 
+
 .people .panel-footer {
 	padding: 8px;
 }
@@ -270,19 +277,22 @@ footer .navbar-bottom li a:hover {
 }
 
 .flex, .flex > div[class*='col-'] {  
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 0 auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex:1 0 auto;
 }
 
 .panel {
-   display: flex;
-   flex-direction:column;
-   align-content:stretch; 
+	background-color: #f5f5f5;
+	align-content:stretch; 
+	display: flex;
+	flex-direction:column;
+   
 }
+
 
 /******************** Smaller Media Adjustments ********************/
 @media (max-width: 767px) {
