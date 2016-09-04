@@ -276,23 +276,6 @@ footer .navbar-bottom li a:hover {
 	border-radius: 4px 4px 0 0;
 }
 
-.flex, .flex > div[class*='col-'] {  
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex:1 0 auto;
-}
-
-.panel {
-	background-color: #f5f5f5;
-	align-content:stretch; 
-	display: flex;
-	flex-direction:column;
-   
-}
-
 
 /******************** Smaller Media Adjustments ********************/
 @media (max-width: 767px) {
